@@ -12,4 +12,5 @@ GPU-bound applications, CAD tooling, and clean infrastructure — with interface
 
 ## Open source
 
-- **[mesh-section-caps](./mesh-section-caps)** — closed section-contour extraction and cap triangulation for arbitrary triangle meshes. The same code that fills the cross-section view in the viewer, published as a standalone module.
+- **[mesh-section-caps](https://github.com/dkopa-labs/mesh-section-caps)** — closed section-contour extraction and cap triangulation for arbitrary triangle meshes. The same code that fills the cross-section view in the viewer, published as a standalone module.
+- **[mesh-edge-chains](https://github.com/dkopa-labs/mesh-edge-chains)** — boundary-edge extraction and junction-aware chain walking. The code behind the viewer's edge display and edge-length measurement; zero dependencies, transferable typed arrays for Web Workers.
